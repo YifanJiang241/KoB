@@ -22,8 +22,8 @@ export default{
 
     
     // $.ajax({
-    //   url: "http://localhost:3000/user/account/register/",
-    //   type: "post",
+    //   url: "http://localhost:3000/user/bot/update/",
+    //   type: "get",
     //   data: {
     //     username: "d",
     //     password: "pd",
