@@ -14,6 +14,8 @@ import java.util.List;
 public class Player {
 
     private Integer id;
+    private Integer botId;// -1 人工
+    private String botCode;
     private Integer sx;
     private Integer sy;
     private List<Integer> steps = new ArrayList<>();
@@ -41,7 +43,7 @@ public class Player {
         return res;
     }
 
-    public String getStepsStreing() {
+    public String getStepsString() {
         StringBuilder res = new StringBuilder();
         for(int d: steps) {
             res.append(d);
